@@ -1,0 +1,156 @@
+[
+	//Food
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Food] once [Hydroponic System] is discovered",
+		"[+1 Food] once [Vertical Farming] is discovered"],
+		"techRequired": "Agriculture",
+	},
+	
+	//
+    {
+		"name": "Japanese District",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"gold": 3,
+		"culture": 2,
+		"happiness": 2,
+		"turnsToBuild": 5,
+		"techRequired": "Globalization",
+	},
+	{
+		"name": "British District",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"gold": 3,
+		"culture": 2,
+		"happiness": 2,
+		"turnsToBuild": 5,
+		"techRequired": "Globalization",
+	},
+	{
+		"name": "French District",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"gold": 3,
+		"culture": 2,
+		"happiness": 2,
+		"turnsToBuild": 5,
+		"techRequired": "Globalization",
+	},
+	{
+		"name": "Chinatown",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"gold": 3,
+		"culture": 2,
+		"happiness": 2,
+		"turnsToBuild": 5,
+		"techRequired": "Globalization",
+	},
+	
+	//
+	{
+		"name": "Sky Line",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"turnsToBuild": 20,
+		"production": 4,
+		"culture": 3,
+		"gold": 5,
+		"science": 4,
+		"techRequired": "Economy III",
+	},
+	{
+		"name": "Kowloon Walled City",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"turnsToBuild": 20,
+		"production": 3,
+		"culture": 3,
+		"gold": 5,
+		"techRequired": "Economy III",
+	},
+	{
+		"name": "Slum",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"turnsToBuild": 10,
+		"production": 2,
+		"culture": 2,
+		"gold": 2,
+		"techRequired": "Economy II",
+	},
+	{
+		"name": "Urban Area",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"turnsToBuild": 10,
+		"production": 1,
+		"culture": 1,
+		"gold": 1,
+		"science": 1,
+		"techRequired": "Economy II",
+	},
+	
+	// Transportation
+	{
+		"name": "Road",
+		"turnsToBuild": 4,
+		"techRequired": "Economy",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 4,
+		"techRequired": "Economy",
+		"uniques": ["Can be built outside your borders"]
+	},
+	
+	// Removals
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"techRequired": "Economy",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"techRequired": "Economy",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 8,
+		"terrainsCanBeBuiltOn": ["Fallout"],
+		"techRequired": "Advanced Army",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"terrainsCanBeBuiltOn": ["Marsh"],
+		"techRequired": "Economy",
+		"uniques": ["Can be built outside your borders"]
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"]
+	},
+
+		// Military improvement
+	{ "name": "Ancient ruins" },
+	{ "name": "City ruins" },
+	{ "name": "Barbarian encampment" }
+	{ "name": "City center" }
+]

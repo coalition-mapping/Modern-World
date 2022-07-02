@@ -1,0 +1,305 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Early Modern Era",
+		"techCost": 20,
+		"buildingCost": 80,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 1,
+				"quote": "WIP",
+				"uniques": ["Starting tech"]
+			},
+			{
+				"name": "Culture",
+				"row": 3,
+				"quote": "WIP",
+				"uniques": ["Starting tech"]
+			},
+			{
+				"name": "Economy",
+				"row": 5,
+				"quote": "WIP",
+				"uniques": ["Starting tech"]
+			},
+			{
+				"name": "Military",
+				"row": 8,
+				"quote": "WIP",
+				"uniques": ["Starting tech"]
+			},
+		]	
+	},
+	{
+		"columnNumber": 1,
+		"era": "Early Modern Era",
+		"techCost": 50, 
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Agriculture II",
+				"row": 1,
+				"prerequisites": ["Agriculture"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Patriot I",
+				"row": 3,
+				"prerequisites": ["Culture"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Economy II",
+				"row": 5,
+				"prerequisites": ["Economy"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Army",
+				"row": 7,
+				"prerequisites": ["Military"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Navy",
+				"row": 8,
+				"prerequisites": ["Military"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Air Force",
+				"row": 9,
+				"prerequisites": ["Military"],
+				"quote": "WIP"
+			},
+		]	
+	},
+	{
+		"columnNumber": 2,
+		"era": "1945-2000",
+		"techCost": 50, 
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Agriculture III",
+				"row": 1,
+				"prerequisites": ["Agriculture II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 2,
+				"prerequisites": ["Agriculture II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Patriot II",
+				"row": 3,
+				"prerequisites": ["Patriot I"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Economy III",
+				"row": 5,
+				"prerequisites": ["Economy II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Army II",
+				"row": 7,
+				"prerequisites": ["Army"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Navy II",
+				"row": 8,
+				"prerequisites": ["Navy"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Air Force II",
+				"row": 9,
+				"prerequisites": ["Air Force"],
+				"quote": "WIP"
+			},
+		]	
+	},
+	{
+		"columnNumber": 3,
+		"era": "1945-2000",
+		"techCost": 50, 
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Hydroponic System",
+				"row": 1,
+				"prerequisites": ["Agriculture III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Genetic Engineering",
+				"row": 2,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Globalization",
+				"row": 3,
+				"prerequisites": ["Patriot II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Banking",
+				"row": 5,
+				"prerequisites": ["Economy III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Army III",
+				"row": 7,
+				"prerequisites": ["Army II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Navy III",
+				"row": 8,
+				"prerequisites": ["Navy II"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Air Force III",
+				"row": 9,
+				"prerequisites": ["Air Force II"],
+				"quote": "WIP"
+			},
+		]	
+	},
+	{
+		"columnNumber": 4,
+		"era": "2000-2100",
+		"techCost": 50, 
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Vertical Farming",
+				"row": 1,
+				"prerequisites": ["Hydroponic System"],
+				"quote": "WIP"
+			},
+			{
+				"name": "CRISPR",
+				"row": 2,
+				"prerequisites": ["Genetic Engineering"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Internet",
+				"row": 3,
+				"prerequisites": ["Globalization"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Massive Consumption",
+				"row": 5,
+				"prerequisites": ["Banking"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Army IV",
+				"row": 7,
+				"prerequisites": ["Army III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Navy IV",
+				"row": 8,
+				"prerequisites": ["Navy III"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Air Force IV",
+				"row": 9,
+				"prerequisites": ["Air Force III"],
+				"quote": "WIP"
+			},
+		]	
+	},
+	{
+		"columnNumber": 5,
+		"era": "2000-2100",
+		"techCost": 50, 
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Advanced Agriculture",
+				"row": 1,
+				"prerequisites": ["Vertical Farming"],
+				"quote": "WIP"
+			},
+			{
+				"name": "CRISPR 2.0",
+				"row": 2,
+				"prerequisites": ["CRISPR"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Social Media",
+				"row": 3,
+				"prerequisites": ["Internet"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Meme Culture",
+				"row": 4,
+				"prerequisites": ["Social Media"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Intellectual-based Economy",
+				"row": 5,
+				"prerequisites": ["Massive Consumption"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Degeneracy-operated Economy",
+				"row": 6,
+				"prerequisites": ["Massive Consumption"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Advanced Army",
+				"row": 7,
+				"prerequisites": ["Army IV"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Advanced Navy",
+				"row": 8,
+				"prerequisites": ["Navy IV"],
+				"quote": "WIP"
+			},
+			{
+				"name": "Advanced Air Force",
+				"row": 9,
+				"prerequisites": ["Air Force IV"],
+				"quote": "WIP"
+			},
+		]	
+	},
+	{
+		"columnNumber": 6,
+		"era": "Future Era",
+		"techCost": 50, 
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 1,
+				"prerequisites": ["Advanced Agriculture","CRISPR 2.0","Meme Culture"],
+				"uniques": ["Who knows what the future holds?"],
+				"quote": "WIP"
+			}
+		]	
+	}
+]

@@ -1,0 +1,125 @@
+[
+	{
+		"name": "Accelerationism",
+		"era": "Early Modern Era",
+		"uniques": ["+25% gold in capital"],
+		"policies": [
+			{
+				"name": "Artaudism",
+				"uniques": ["+[90]% [Culture] [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Absolute Industrialized",
+				"uniques": ["+[90]% [Production] [in all cities]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Soft Industrialized",
+				"uniques": ["+[50]% [Production] [in all cities]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Futurism",
+				"uniques": ["+[90]% [Science] [in all cities]"],
+				"requires": ["Soft Industrialized"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Accelerationism Complete",
+				"uniques": ["Free Great Person", "Empire enters golden age"]
+			}
+		]
+	},
+	{
+		"name": "Entertainment",
+		"era": "1945-2000",
+		"uniques": ["+25% happiness in capital"],
+		"policies": [
+			{
+				"name": "Anime and Manga",
+				"uniques": ["[+1 Happiness] from every [Japanese District]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Yearly Festival",
+				"uniques": ["[+1 Happiness] [in all cities]", "+[10]% [Culture] [in all cities]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Superblock",
+				"uniques": ["[+1 Happiness] from every [Urban Area]", "[+1 Gold] from every [Urban Area]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Entertainment Complete",
+				"uniques": ["Free Great Person", "Empire enters golden age"]
+			}
+		]
+	},
+	{
+		"name": "Communism",
+		"uniques": ["All military naval units receive +1 movement and +1 sight"],
+		"era": "Early Modern Era",
+		"policies": [
+			{
+				"name": "National Support",
+				"uniques": ["+[15]% growth in all cities"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Country's Culture",
+				"uniques": ["+1 Culture per 4 population in all cities"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Collective Rule",
+				"uniques": ["Unhappiness from population decreased by 25%"],
+				"requires": ["Republic"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Controlled Demography",
+				"uniques": ["Each city founded increases culture cost of policies 33% less than normal"],
+				"requires": ["Citizenship"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Meritocracy",
+				"uniques": ["+1 happiness for every city connected to capital", "Unhappiness from population decreased by [5]%"],
+				"requires": ["Collective Rule"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "National Sovereignty",
+				"uniques": ["-33% unit upkeep costs"],
+				"requires": ["Collective Rule","Controlled Demography"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "National Academy",
+				"uniques": ["+15% science and production in all cities"],
+				"requires": ["Controlled Demography"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Protectionism Complete",
+				"uniques": ["Free Great Person", "Empire enters golden age"]
+			}
+		]
+	},
+]

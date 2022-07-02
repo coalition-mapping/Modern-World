@@ -1,0 +1,703 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+		"innerColor": [0,0,0]
+	},
+	
+	//Nation
+	{
+		"name": "Sunda Empire",
+		"leaderName": "Rangga",
+		"adjective": ["Sundanese"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Congratulations, Rangga. You has been selected to become a prime minister of the Sunda Empire. Can you lead the Sundanese people well? I hope you can do it. Show the world that ABCD is strong. Try to complete the policy tree and build the United Nations. Prove the world that United Nations is from Bandung!",
+		"startIntroPart2": "Rangga, can you lead the Sundanese people to greatness? Can you build a civilization that will stand the test of time? Can you show the true way to other nation ? Show them that the UN is from Bandung!",
+		
+		"declaringWar": "Feel the wrath of the Sunda Empire!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "Winners look for ways, losers look for excuses.",
+		"introduction": "Welcome to the Sunda Empire. How can i help you?",
+		
+		"neutralHello": "Good day.",
+		"hateHello": "Go away.",
+		
+		"tradeRequest": "Is the following trade of interest to you?",
+		
+		"outerColor": [0,79,205],
+		"innerColor": [243,245,249],
+		
+		"uniqueName": "ABCD",
+		"uniques": [
+		"[+1 Production] per [5] population in all cities",
+		"Double quantity of [Oil] produced",
+		"Double quantity of [Cattle] produced"
+		], 
+		
+		"cities": [
+		"Bandung",
+		"Surabaya",
+		"Banten",
+		"Solo",
+		"Yogyakarta",
+		"Jakarta",
+		"Lampung",
+		"Palembang",
+		"Depok",
+		"Bogor",
+		"Tangerang",
+		"Mataram",
+		"Denpasar",
+		"Medan",
+		"Samarinda",
+		"Makassar",
+		"Manado",
+		"Palu",
+		"Aceh",
+		"Serang",
+		"Tanjung Priok",
+		"Jayapura",
+		"Manokwari",
+		"Ternate",
+		"Lombok",
+		"Banyuwangi",
+		"Natuna",
+		"Jambi",
+		"Mamuju",
+		"Gorontalo",
+		"Banawa",
+		"Luwu",
+		"Poso",
+		"Palangkaraya",
+		"Bangka",
+		"Pekanbaru"]
+	},
+	{
+		"name": "Russian National Reclamation Goverment",
+		"leaderName": "Yazov",
+		"adjective": ["Omsk"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Congratulations, Yazov. You has unified the Russian land into one state. The Russian people are thirsty of revenge.",
+		"startIntroPart2": "Yazov, can you lead the Omsk people to greatness? Can you build a civilization that will stand the test of time? Can you show the Great Trial to other nation ?",
+		
+		"declaringWar": "Feel the wrath of the Russian people!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "Winners look for ways, losers look for excuses.",
+		"introduction": "Welcome to the Rus. How can i help you?",
+		
+		"neutralHello": "Good day.",
+		"hateHello": "Go away.",
+		
+		"tradeRequest": "Is the following trade of interest to you?",
+		
+		"outerColor": [0,79,205],
+		"innerColor": [243,245,249],
+		
+		"uniqueName": " The Great Trial",
+		"uniques": [
+		"[+1 Production] per [5] population in all cities",
+		"Double quantity of [Oil] produced",
+		"Double quantity of [Cattle] produced"
+		], 
+		
+		"cities": [
+		"Omsk",
+		"Leningrad",
+		"Stalingrad",
+		"Novgorod",
+		"Rostov",
+		"Yaroslavl",
+		"Yekaterinburg",
+		"Yakutsk",
+		"Vladivostok",
+		"Smolensk",
+		"Orenburg",
+		"Krasnoyarsk",
+		"Khabarovsk",
+		"Bryansk",
+		"Tver",
+		"Novosibirsk",
+		"Magadan",
+		"Murmansk",
+		"Irkutsk",
+		"Chita",
+		"Samara",
+		"Arkhangelsk",
+		"Chelyabinsk",
+		"Tobolsk",
+		"Vologda",
+		"Moskowien",
+		"Astrakhan",
+		"Kursk",
+		"Saratov",
+		"Tula",
+		"Vladimir",
+		"Perm",
+		"Voronezh",
+		"Pskov",
+		"Starayarussa",
+		"Kostoma",
+		"Nizhniy Novgorod",
+		"Suzdal",
+		"Magnitogorsk"]
+	},
+	{
+		"name": "One State",
+		"leaderName": "Gastov",
+		"adjective": ["The One State"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+	
+		"startIntroPart1": "Greetings upon thee, Comrade Gastov. At your command lies the largest country in the world. Mighty One State stretches from the Pacific Ocean in the east to the Baltic Sea in the west. Despite wars, droughts, and every manner of disaster the heroic nation, people survive and prosper, their artists and scientists among the best in the world. The Country today remains one of the strongest ever seen in human history - a true superpower, with the greatest destructive force ever devised at her command.",
+		"startIntroPart2": "Comrade Gastov, your people look to you to bring forth glorious days for One State and her people, to revitalize the land and recapture the wonder of the Enlightenment. Will you lead your people once more into greatness? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "All the nations of the world denounce your treacherous acts. They see that ours is just a cause, and they know that the enemy will be defeated.",
+		"attacked": "Your blood will freeze in our blizzard.",
+		"defeated": "I recognize my defeat and bow down to the victor.",
+		"introduction": "Greetings from the people of the One State. I hope for a long friendship between our nations.",
+		
+		"neutralHello": "Hello!",
+		"hateHello": "What are looking at !?",
+		
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		
+		"outerColor": [0,0,0],
+		"innerColor": [243,245,249],
+		
+		"uniqueName": "Homo Metallum",
+		"uniques": [
+		"[+2 Production] per [1] population in all cities"]
+		
+		"cities": [
+		"Fabrikograd",
+		"Moscow",
+		"Leningrad",
+		"Stalingrad",
+		"Novgorod",
+		"Rostov",
+		"Yaroslavl",
+		"Yekaterinburg",
+		"Yakutsk",
+		"Vladivostok",
+		"Smolensk",
+		"Orenburg",
+		"Krasnoyarsk",
+		"Khabarovsk",
+		"Bryansk",
+		"Tver",
+		"Novosibirsk",
+		"Magadan",
+		"Murmansk",
+		"Irkutsk",
+		"Chita",
+		"Samara",
+		"Arkhangelsk",
+		"Chelyabinsk",
+		"Tobolsk",
+		"Vologda",
+		"Omsk",
+		"Astrakhan",
+		"Kursk",
+		"Saratov",
+		"Tula",
+		"Vladimir",
+		"Perm",
+		"Voronezh",
+		"Pskov",
+		"Starayarussa",
+		"Kostoma",
+		"Nizhniy Novgorod",
+		"Suzdal",
+		"Magnitogorsk"]
+	},
+	{
+		"name": "Oceania",
+		"leaderName": "Big Brother",
+		"adjective": ["Oceanian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "jdbdvdjjdJzvsjgHjshJrjvsbJebdbbesjSjhsbsbigBrothriSwatchingYoukfjfkdnfjnfHxsjnHsHshJfZje. jdjdfctHeyli3dkfxhfjfxh",
+		"startIntroPart2": "Long Live Big Brother!",
+		
+		"declaringWar": "Get Ready To Be Destroyed!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "Now your people will live under an Orwellian nation.",
+		"introduction": "Greetings from our glorious Big Brother. What do you need?",
+		
+		"neutralHello": "Good day.",
+		"hateHello": "Go away.",
+		
+		"tradeRequest": "Is the following trade of interest to you?",
+		
+		"outerColor": [0,0,0],
+		"innerColor": [243,245,249],
+		
+		"uniqueName": "Telescreen",
+		"uniques": [
+		"[+1 Production] per [2] population in all cities",
+		], 
+		
+		"cities": [
+		"Airstrip 1",
+		"Airstrip 2",
+		"Airstrip 3",
+		"Airstrip 4",
+		"Airstrip 5",
+		"Airstrip 6",
+		"Airstrip 7",
+		"Airstrip 8",
+		"Airstrip 9",
+		"Airstrip 10",
+		"Airstrip 11",
+		"Airstrip 12",
+		"Airstrip 13",
+		"Airstrip 14",
+		"Airstrip 15",
+		"Airstrip 16",
+		"Airstrip 17",
+		"Airstrip 18",
+		"Airstrip 19",
+		"Airstrip 20",
+		"Airstrip 21",
+		"Airstrip 22",
+		"Airstrip 23",
+		"Airstrip 24",
+		"Airstrip 25",
+		"Airstrip 26",
+		"Airstrip 27",
+		"Airstrip 28",
+		"Airstrip 29",
+		"Airstrip 30",]
+	},
+	{
+		"name": "Großgermanisches Reich",
+		"leaderName": "Hitler",
+		"adjective": ["German"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hail Hitler, first canchellor of Germany and her reich! Germany is an upstart nation, fashioned from the ruins of the Holy Roman Empire and finally unified in 1871. The German people have proven themselves to be creative, industrious a ferocious warriors. Despite enduring great catastrophes in the first half of the 20th century, Germany remains a worldwide economic, artistic and technological leader.",
+		"startIntroPart2": "Fuhrer, the German people look up too you to lead them to greater days of glory. Their determination is strong, and now they turn to you, their beloved iron chancellor, to guide them once more. Will you rile and conquer through blood and iron, or foster the Germanic arts and industry? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "England forced Napoleon to go to war, just like with us. If we don’t understand it, we don’t do justice to Napoleon.",
+		"attacked": "Let's talk about the land which you mistakenly believe to be yours. Therefore, prepare for war!",
+		"defeated": "Don’t be sad because it’s over, be pretty happy that it all happened",
+		"introduction": "Guten tag. In the name of the great German people, I bid you welcome.",
+		
+		"neutralHello": "What now?",
+		"hateHello": "So, out with it!",
+		
+		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+		
+		"outerColor": [218, 70, 43],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "Third Reich",
+		"uniques": [
+		"67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
+		"-25% land units maintenance",
+		"Double quantity of [Cocoa] produced"],
+		
+		"cities": [
+		"Germania",
+		"Hamburg",
+		"Munich",
+		"Cologne",
+		"Frankfurt",
+		"Essen",
+		"Dortmund",
+		"Stuttgart",
+		"Dusseldorf",
+		"Bremen",
+		"Hannover",
+		"Duisburg",
+		"Leipzig",
+		"Dresden",
+		"Bonn",
+		"Bochum",
+		"Bielefeld",
+		"Karlsruhe",
+		"Gelsenkirchen",
+		"Wiesbaden",
+		"Munster",
+		"Rostok",
+		"Chemnitz",
+		"Braunschweig",
+		"Halle",
+		"Mצnchengladbach",
+		"Kiel",
+		"Wuppertal",
+		"Freiburg",
+		"Hagen",
+		"Erfurt",
+		"Kaiserslautern",
+		"Kassel",
+		"Oberhausen",
+		"Hamm",
+		"Saarbrucken",
+		"Krefeld",
+		"Pirmasens",
+		"Potsdam",
+		"Solingen",
+		"Osnabruck",
+		"Ludwingshafen",
+		"Leverkusen",
+		"Oldenburg",
+		"Neuss",
+		"Mulheim",
+		"Darmstadt",
+		"Herne",
+		"Wurzburg",
+		"Recklinghausen",
+		"Gצttingen",
+		"Wolfsburg",
+		"Koblenz",
+		"Hildesheim",
+		"Erlangen"]
+	},
+	{
+		"name": "L'état Irréel",
+		"leaderName": "Artaud",
+		"adjective": ["French"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Long life and triumph to you, ruler of the French people. France lies at the heart of Europe. Long has Paris been the world center of culture, arts and letters. Although surrounded by competitors - and often enemies - France has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
+		"startIntroPart2": "Antonin Artaud, France yearns for you to rebuild your empire, to lead her once more to glory and greatness, to make France once more the epicenter of culture and refinement. Will you ride once more against your foes? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Artillery conquers, infantry occupies. You've fallen into my trap. I'll bury you.",
+		"attacked": "You shall not pass.",
+		"defeated": "I congratulate you for your victory.",
+		"introduction": "Welcome to France !",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+		
+		"tradeRequest": "France offers you this exceptional proposition.",
+		
+		"outerColor": [ 10, 29, 216],
+		"innerColor": [ 245, 113, 89],
+		
+		"uniqueName": "Avant-Garde Regime",
+		"uniques": [
+		"Double quantity of [Wheat] produced",
+		"Double quantity of [Wine] produced",
+		"City-State Influence degrades at half rate",
+		"City-State Influence recovers at twice the normal rate"]
+		
+		"cities": [
+		"Le Soleil",
+		"Orleans",
+		"Lyon",
+		"Troyes",
+		"Tours",
+		"Marseille",
+		"Chartres",
+		"Avignon",
+		"Rouen",
+		"Grenoble",
+		"Dijon",
+		"Amiens",
+		"Cherbourg",
+		"Poitiers",
+		"Toulouse",
+		"Bayonne",
+		"Strasbourg",
+		"Brest",
+		"Bordeaux",
+		"Rennes",
+		"Nice",
+		"Saint Etienne",
+		"Nantes",
+		"Reims",
+		"Le Mans",
+		"Montpellier",
+		"Limoges",
+		"Nancy",
+		"Lille",
+		"Caen",
+		"Toulon",
+		"Le Havre",
+		"Lourdes",
+		"Cannes",
+		"Aix-En-Provence",
+		"La Rochelle",
+		"Bourges",
+		"Calais"]
+	},
+	//City-States
+	{
+		"name": "Rio de Janeiro",
+		"adjective": ["Carioca"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"cities": ["Rio de Janeiro"]
+	},
+	{
+		"name": "Antwerp",
+		"adjective": ["Antwerp"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194,97,255],
+		"cities": ["Antwerp"]
+	},
+	{
+		"name": "Tyre",
+		"adjective": ["Tyrian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,97,255],
+		"cities": ["Tyre"]
+	},
+	{
+		"name": "Ur",
+		"adjective": ["Ur"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,69,0],
+		"cities": ["Ur"]
+	},
+	{
+		"name": "Genoa",
+		"adjective": ["Genoese"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [45,255,86],
+		"cities": ["Genoa"]
+	},
+	{
+		"name": "Kabul",
+		"adjective": ["Kabul"],
+		"cityStateType": "Cultured",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,0,76],
+		"cities": ["Kabul"]
+	},
+	{
+		"name": "Sidon",
+		"adjective": ["Sidon"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "What a fine battle! Sidon is willing to serve you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250,128,114],
+		"cities": ["Sidon"]
+	},
+	{
+		"name": "Almaty",
+		"adjective": ["Almaty"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [152,0,241],
+		"cities": ["Almaty"]
+	},
+	{
+		"name": "Singapore",
+		"adjective": ["Singaporean"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,0],
+		"cities": ["Singapore"]
+	},
+	{
+		"name": "Zanzibar",
+		"adjective": ["Zanzibar"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,255],
+		"cities": ["Zanzibar"]
+	},
+	{
+		"name": "Cape Town",
+		"adjective": ["Cape Town"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,153],
+		"cities": ["Cape Town"]
+	},
+	{
+		"name": "Kathmandu",
+		"adjective": ["Kathmandu"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [151,125,0],
+		"cities": ["Kathmandu"]
+	},
+	{
+		"name": "Hanoi",
+		"adjective": ["Hanoi"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,0,255],
+		"cities": ["Hanoi"]
+	},
+	{
+		"name": "Quebec City",
+		"adjective": ["Québécois"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51,102,0],
+		"cities": ["Quebec City"]
+	},
+	{
+		"name": "Helsinki",
+		"adjective": ["Helsinki"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,178,102],
+		"cities": ["Helsinki"]
+	},
+	{
+		"name": "Kuala Lumpur",
+		"adjective": ["KLite"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Kuala Lumpur"]
+	},
+	{
+		"name": "Manila",
+		"adjective": ["Manilan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [96,96,96],
+		"cities": ["Manila"]
+	},
+	{
+		"name": "Lhasa",
+		"translatedName": "Lhasa",
+		"adjective": ["tibetano"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [204,102,0],
+		"cities": ["Lhasa"]
+	},
+	{
+		"name": "Vancouver",
+		"translatedName": "Vancouver",
+		"adjective": ["Vancouverite"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,255,128],
+		"cities": ["Vancouver"]
+	},
+	{
+		"name": "M'Banza-Kongo",
+		"adjective": ["M'Banza-Kongo"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,128,0],
+		"cities": ["M'Banza-Kongo"]
+	},
+	{
+		"name": "Mogadishu",
+		"adjective": ["Mogadishu"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conquerer. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		"cities": ["Mogadishu"]
+	},
+	
+	        
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0]
+	}
+
+]

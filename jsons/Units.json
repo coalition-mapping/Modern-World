@@ -1,0 +1,101 @@
+[
+
+
+		/* all civ */
+	
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 1,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"cost": 30
+	},
+	{
+		"name": "Builder",
+		"unitType": "Civilian",
+		"requiredTech": "Army III",
+		"movement": 3,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build [Land] improvements on tiles", "Founds a new city"],
+		"cost": 30
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "WaterCivilian",
+		"movement": 3,
+		"cost": 30,
+		"uniques": ["May create improvements on water resources"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 1,
+		"cost": 106,
+		"uniques": ["Founds a new city"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Banker",
+		"replaces": "Settler",
+		"unitType": "Civilian",
+		"requiredTech": "Future Tech",
+		"movement": 2,
+		"cost": 1000,
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence","Double movement in coast"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 2,
+		"cost": 20,
+		"uniques": ["Ignores terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Electric Bomb",
+		"unitType": "Missile",
+		"requiredTech": "Advanced Army",
+		"movement": 2,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 20,
+		"cost": 1000,
+		"uniques": ["Nuclear weapon of Strength [2]", "Blast radius [5]"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Musketman",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 5,
+		"cost": 20,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Infantry",
+		"replaces": "Musketman",
+		"unitType": "Melee",
+		"requiredTech": "Army II",
+		"movement": 5,
+		"strength": 7,
+		"cost": 20,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Mechanized Infantry",
+		"replaces": "Infantry",
+		"unitType": "Melee",
+		"requiredTech": "Army IV",
+		"movement": 7,
+		"strength": 10,
+		"cost": 20,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	}
+]
